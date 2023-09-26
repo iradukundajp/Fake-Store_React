@@ -1,0 +1,73 @@
+/* Phones.css */
+
+/* Container for the entire phones component */
+.phones-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: normal;
+  justify-content: normal;
+  align-items: center;
+}
+
+/* Heading style */
+.phones-heading {
+  margin-top: auto;
+  font-size: 40px;
+  margin-bottom: 16px;
+  color: rgb(244, 244, 244);
+}
+
+/* Loading message style */
+.loading-message {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Error message style */
+.error-message {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* Phone card style */
+.phone-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Phone image style */
+.phone-image {
+  max-width: 100%;
+  max-height: 250px; /* Adjust the maximum height as needed */
+  object-fit: contain; /* Make the image fit within the container */
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Phone name style */
+.phone-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Phone price style */
+.phone-price {
+  font-size: 18px;
+  color: #666;
+  margin-top: 5px;
+}
